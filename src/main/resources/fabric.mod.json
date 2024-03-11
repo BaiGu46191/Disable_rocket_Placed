@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "disablerocketplaced",
+	"version": "${version}",
+	"name": "Disable rocket Placed",
+	"description": "Using elytra disables firework rockets from being placed on blocks",
+	"authors": [
+		"BaiGu46191"
+	],
+	"contributors": [
+		"Nrxot"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Disable_rocket_Placed"
+	},
+	"license": "0BSD",
+	"icon": "assets/DisablerocketPlaced/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.DisablerocketPlaced.apt.mixin.Main_entrance"
+			]
+	},
+	"depends": {
+		"fabricloader": ">=0.14",
+		"minecraft": ">=1.18",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
