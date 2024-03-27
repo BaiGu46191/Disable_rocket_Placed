@@ -1,2 +1,1 @@
-Fabric模组
-禁用烟花对着方块放置
+Fixed an issue where equipping elytra would release fireworks on blocks. 
